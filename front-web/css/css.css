@@ -52,6 +52,12 @@ li a:hover {
 
 /* CONTEUDO SO SITE */
 
+.main-geral{
+  padding-bottom: 200px; 
+  height: 320px; 
+  border: 1px solid blue;
+}
+
 .coluna {
   float: left;
   padding: 10px;
@@ -89,8 +95,6 @@ li a:hover {
 
 /* Footer (rodapé) */
 
-
-
 footer {
   background-color: #333;
   width: 100%;
@@ -98,21 +102,64 @@ footer {
   border: 3px solid red;
   padding: 0;
 } 
-/* ternatatica footer por grade */
+
+.titulo-footer {
+  font-size: 20px;
+  color: whitesmoke;
+  padding: 5px;
+  border: 4px solid darkcyan;
+}
+
+.texto-footer {
+  font-size: 13px;
+  color: whitesmoke;
+  padding: 5px;
+  border: 2px solid darkcyan;
+
+}
+
+
+
+/* tentativa footer por grade */
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto;
-  background-color: #2196F3;
-  padding: 10px;
+  grid-template-columns: auto auto ;
+  padding: 0px;
 }
 .grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
+  border: 1px solid white;
 }
-/*  */
+
+.grid-info {
+  display: grid;
+  grid-template-columns: auto auto ;
+  padding: 0px;
+}
+
+.grid-sub-info {
+  border: 1px solid white;
+}
+
+
+.grid-item.foto {
+  background-color: rebeccapurple;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 0px;
+  width: 100%;
+  height: auto;
+}
+
+.texto-nome {
+  font-size: large;
+  color: #04AA6D;
+}
+
+
+
+
+
+
+/* tenatativa e erro */
 .coluna-footer {
   float: left;
   margin-left: 10px;
@@ -149,7 +196,7 @@ footer {
     clear: both;
     margin-bottom: 40px;
   }
-
+ 
 .footer-link {
     float: left;
     display: block;
@@ -161,7 +208,7 @@ footer {
     border: 1px solid yellow;
 }
 
-#nome-1{
+.nome-participantes{
     font-size: 15px;
     width: 300px;
     border: 1px solid wheat;
