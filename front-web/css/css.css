@@ -3,34 +3,158 @@
 * {
     margin: 0;
     padding: 0;
-    list-style:none;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "Lucida Sans", sans-serif;
+    font-size: 14px;
 }
 
-.menu{
-    background-color: cadetblue;
-    border: 0px solid orange;
-    padding: 20px;
+.titulo {
+    font-size: 30px;
+}
+
+
+/* MENU DE NAVEGACAO */
+
+.nav-ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333; 
+  position: relative;
+  top: 0;
+  width: 100%;
+} 
+
+.nav-links {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: larger;
+} 
+#contato {
+    float: right;
     color: white;
-    align-items: center;
-    
+    background-color: #04AA6D;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: brown;
+    color: white;
+  }
+
+
+/* CONTEUDO SO SITE */
+
+.coluna {
+  float: left;
+  padding: 10px;
+}
+
+.coluna.video {
+    width: 65%;
+    height: auto;
+    padding: auto;
+  }
+
+.video {
+    width: 100%;
+    height: auto;
+}
+
+.coluna.texto {
+  width: 30%;
+  height: 500px;
+  padding: auto;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.imagem-texto {
+    display: grid;
+    grid-template-areas: "col1 col2";
+    grid-template-columns: 1fr 1fr;
+}
+
+
+/* Footer (rodapé) */
+
+footer {
+  background-color: #333;
+  width: 100%;
+  height: auto;
+  border: 3px solid red;
+  padding: 0;
+} 
+
+/*  */
+.coluna-footer {
+  float: left;
+  padding: 2px 0px 0px 10px ;
+  width: 20%;
+  height: auto;
+}
+  
+.coluna-footer.img {
+  width: auto;
+  height: 150px;
+  padding: 0px;
+  border: 2px solid blue;
+}
+
+.imge {
+  width: 100%;
+  height: auto;
+}
+
+.coluna-footer.texto {
+   width: 100px;
+  padding: 0px;
+  margin-top: auto;
+  border: 2px solid blue;
+}
+
+.row-footer::after {
+    content: "";
+    display: table;
+    clear: both;
+    margin-bottom: 40px;
+  }
+
+.footer-link {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 7px;
+    font-size: larger;
+    margin-top: 5px;
+    border: 1px solid yellow;
+}
+
+#nome-1{
+    font-size: 15px;
+    width: 300px;
+    border: 1px solid wheat;
+    color: cyan;
+    margin-top: 10px;
 
 }
 
-.link-menu{
-    color:white;
-    font-size: 20px;
-    padding: 0 20px 0 20px;
-    margin: 80px ;
-}
 
 
 
-
-
-
-
-
-/* Formulario de contato */
+/* FORMULARIO DE CONATATO */
 
 .container-contato {
     border: 1px solid rgb(196  197 205);
@@ -45,7 +169,6 @@
     padding: 20px ;
     border-radius: 10px;
 }
-
 
   
 .form-control {
