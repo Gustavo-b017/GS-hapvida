@@ -89,6 +89,8 @@ li a:hover {
 
 /* Footer (rodapé) */
 
+
+
 footer {
   background-color: #333;
   width: 100%;
@@ -96,13 +98,28 @@ footer {
   border: 3px solid red;
   padding: 0;
 } 
-
+/* ternatatica footer por grade */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
 /*  */
 .coluna-footer {
   float: left;
-  padding: 2px 0px 0px 10px ;
-  width: 20%;
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 15%;
   height: auto;
+  
 }
   
 .coluna-footer.img {
@@ -110,6 +127,7 @@ footer {
   height: 150px;
   padding: 0px;
   border: 2px solid blue;
+  grid-area: 'foto';
 }
 
 .imge {
@@ -122,6 +140,7 @@ footer {
   padding: 0px;
   margin-top: auto;
   border: 2px solid blue;
+  grid-area: 'texto';
 }
 
 .row-footer::after {
@@ -150,6 +169,14 @@ footer {
     margin-top: 10px;
 
 }
+
+
+
+
+
+
+
+
 
 
 
