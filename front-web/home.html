@@ -7,24 +7,119 @@
 </head>
 <body>
     
-    <nav>
-        <div class="menu">
-            <a href="./home.html" >
-                <img style="width: auto;" src=" LOGO ">
-            </a>
-            <a href="./problema_solucao/problema.html" class="link-menu"> Porblema & Solucao</a>
-            <a href="./demonstracao/demonstracao.html" class="link-menu"> Demonstracao da Solucao</a>
-            <a href="./contato/contato.html" class="link-menu"> Contato</a>
-        </div>
+    <nav >
+        <ul class="nav-ul">
+
+            <li class="nav-li">
+                <a href="./home.html" class="nav-links active"> 
+                    logo<!-- <img id="home " src="./imagens/img_navsprites.gif" > -->
+                </a>
+            </li>
+            <li class="nav-li">
+                <a href="./problema_solucao/problema.html" class="nav-links"> Porblema & Solucao</a>
+            </li>
+            <li class="nav-li">
+                <a href="./demonstracao/demonstracao.html" class="nav-links"> Demonstracao da Solucao</a>
+            </li>
+            <li class="nav-li" id="contato">
+                <a href="./contato/contato.html" class="nav-links"> Contato</a> 
+            </li>
+
+        </ul>
     </nav>
 
 
+    <!-- conteudo geral -->
 
+    <section>
+        <div class="row ">
+            <div class="coluna video">
+                
+                <h1 class="titulo">Pitch -- Storytelling</h1>
+            
+                <video width="400" controls class="video">
+                    <source src="video" type="video/mp4">
+                    <source src="mov_bbb.ogg" type="video/ogg">
+                Your browser does not support HTML5 video.
+              </video>
 
+            </div>
+            
+            <div class="coluna texto">
+                <h1 class="titulo">Resumo do Pitch</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+                <p>Puta que pariu ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+            </div>
+            
+        </div>
+    </section>
+    
+    <!-- Comeco do fim (iniando o rodapé) -->
+    <footer>
+        <div class="row-footer">
+            <div class="row-footer">
+                <div class=" ">
+                    <img src="./imagens/perfil na floresta.png" class="coluna-footer img">
 
+                </div>    
+                
+                <div class="coluna-footer texto ">
+                    <table class="">
+                        <tr>
+                            <td class="">
+                                <p id="nome-1">Gustavo Bezerra Assumção - RM553076 </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="">
+                                <a href="" class="footer-link "> Linkedin</a>
+                            </td>
+                        </tr>
 
+                        <tr>
+                            <td class="">
+                                <a href="" class="footer-link "> Instagram</a>
+                            </td>
+                        </tr>
 
+                        <tr>
+                            <td class="" >
+                                <a href="" class="footer-link"> Github</a> 
+                            </td>
+                        </tr> 
+                    </table>
+            </div>
+        </div>
+        
+        <div class="row-footer">
+            <div class="">
+                <img src="./imagens/perfil na floresta.png" class="coluna-footer img">
 
+            </div>    
+           
+            <div class=" coluna-footer texto">
+                <table class="">
+                    <tr>
+                        <td class="">
+                            <a href="" class="footer-link "> Linkedin</a>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td class="">
+                            <a href="" class="footer-link "> Instagram</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="" >
+                            <a href="" class="footer-link"> Github</a> 
+                        </td>
+                    </tr> 
+                </table>
+            </div>
+        </div>  
+
+    </footer>
 
 </body>
 </html>
