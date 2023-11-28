@@ -98,7 +98,8 @@ li a:hover {
 .coluna.video {
     width: 65%;
     height: auto;
-    padding: auto;
+    padding: 0;
+    padding-left: 20px;
   }
 
 .video {
