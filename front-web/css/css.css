@@ -87,7 +87,7 @@ li a:hover {
 .main-geral{
   padding-bottom: 200px; 
   height: 320px;
-  background-color: #00B35D;
+  background: linear-gradient(to right, #00BF63, #7ED957, #C1FF72)
 }
 
 .coluna {
