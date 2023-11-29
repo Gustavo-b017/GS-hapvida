@@ -15,6 +15,17 @@
 }
 
 
+/* cabecalho */
+
+.header {
+  background: linear-gradient(to bottom, #00BF63, #333);
+  display: flex;
+  justify-content: center;
+}
+.header-img {
+  background: transparent;
+}
+
 /* MENU DE NAVEGACAO */
 
 .logo-nav {
@@ -86,7 +97,7 @@ li a:hover {
 
 .main-geral{
   padding-bottom: 200px; 
-  height: 320px;
+  height: auto;
   background: linear-gradient(to right, #00BF63, #7ED957, #C1FF72)
 }
 
@@ -105,7 +116,7 @@ li a:hover {
 .video {
     width: 100%;
     height: auto;
-    border: 1px ;
+    border: 2px ;
     border-radius: 13px ;
 }
 
@@ -127,11 +138,14 @@ li a:hover {
     grid-template-columns: 1fr 1fr;
 }
 
+.grafico {
+  width: auto;
+  height: 320px;
+}
 
 /* Footer (rodapé) */
 
 footer {
-  list-style-type: none;
   width: 100%;
   height: auto;
 } 
