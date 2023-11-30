@@ -289,8 +289,19 @@ table {
   padding: 10px;
 }
 
+.sobre-link {
+  color: #fff;
+  padding: 10px;
+}
+
 
 /* FORMULARIO DE CONATATO */
+
+
+
+.body-contato{
+  background: linear-gradient(to right, #00BF63, #7ED957, #C1FF72)
+}
 
 .container-contato {
     border: 1px solid rgb(196  197 205);
