@@ -8,12 +8,18 @@
     font-family: "Lucida Sans", sans-serif;
     font-size: 14px;
     border: none;
+    line-height: 20px;
 }
 
 .titulo {
     font-size: 30px;
 }
 
+.border-radiuns-photo {
+  border-radius: 10px;
+    border: 2px solid #f1f0f0;
+    padding: 0;
+}
 
 /* cabecalho */
 
@@ -25,6 +31,21 @@
 .header-img {
   background: transparent;
 }
+
+
+
+.title-space-video {
+  margin: 25px 0 25px 0;
+}
+
+.titulo-espaco-texto {
+  margin: 65px 0 25px 0;  
+}
+
+.texto-espaco{
+  line-height: 22px;
+}
+
 
 /* MENU DE NAVEGACAO */
 
@@ -96,7 +117,7 @@ li a:hover {
 /* CONTEUDO SO SITE */
 
 .main-geral{
-  padding-bottom: 200px; 
+  padding-bottom: 50px; 
   height: auto;
   background: linear-gradient(to right, #00BF63, #7ED957, #C1FF72)
 }
@@ -118,11 +139,12 @@ li a:hover {
     height: auto;
     border: 2px ;
     border-radius: 13px ;
+    margin-right: 15px;
 }
 
 .coluna.texto {
   width: 30%;
-  height: 500px;
+  height: auto;
   padding: auto;
 }
 
@@ -142,6 +164,7 @@ li a:hover {
   width: auto;
   height: 320px;
 }
+
 
 /* Footer (rodapé) */
 
@@ -174,8 +197,6 @@ footer {
 .grid-item {
   border: none;
   background-color: #333;
-  
-  
 }
 
 .grid-info {
@@ -183,7 +204,6 @@ footer {
   grid-template-columns: auto auto ;
   padding: 0px;
   margin: 5px;
-  
 }
 
 .grid-sub-info {
@@ -203,7 +223,6 @@ footer {
 }
 
 
-/* tenatativa e erro */
 .coluna-footer {
   float: left;
   margin-left: 10px;
@@ -217,14 +236,17 @@ footer {
   width: auto;
   height: 150px;
   padding: 0px;
-  padding-left: 5px;
+  margin-left: 5px;
   grid-area: 'foto';
   margin: 10px;
 }
 
-.imge {
+.img {
   width: 100%;
   height: auto;
+  border: 2px solid #f1f0f0;
+  padding: 0;
+  border-radius: 9px;
 }
 
 .coluna-footer.texto {
@@ -237,7 +259,8 @@ footer {
 
 .jeff-direita {
   float: right;
-  padding-right: 5px;
+  margin-right: 5px;
+  padding: 0px;
 }
 
 .row-footer::after {
